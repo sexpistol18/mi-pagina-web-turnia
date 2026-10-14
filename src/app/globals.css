@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #111827;
+  --text-secondary: #4b5563;
+  --blue-primary: #2f2c79;
+  --blue-light: #0284c7;
+  --beige-light: #fbf1e9;
+  --header-bg: #f3f4f6;
+  --header-text: #374151;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Utilities for Turnia Design System */
+.bg-turnia-blue {
+  background-color: #2f2c79;
+}
+
+.text-turnia-blue {
+  color: #2f2c79;
+}
+
+.text-turnia-beige {
+  color: #fbf1e9;
+}
+
+.bg-turnia-beige {
+  background-color: #fbf1e9;
+}
+
+.text-important-blue {
+  color: #0284c7;
+}
+
+.btn-turnia-primary {
+  background-color: #2f2c79;
+  color: #ffffff;
+  transition: all 0.2s ease-in-out;
+}
+.btn-turnia-primary:hover {
+  background-color: #242261;
+  transform: translateY(-1px);
+}
+
+.btn-turnia-transparent {
+  background-color: rgba(47, 44, 121, 0.12);
+  color: #fbf1e9;
+  border: 1.5px solid rgba(47, 44, 121, 0.3);
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease-in-out;
+}
+.btn-turnia-transparent:hover {
+  background-color: rgba(47, 44, 121, 0.22);
+  transform: translateY(-1px);
+}
+
+.turnia-title-banner {
+  background-color: #2f2c79;
+  color: #fbf1e9;
+  border-radius: 1rem;
+  padding: 0.75rem 2rem;
+  display: inline-block;
+  box-shadow: 0 10px 25px -5px rgba(47, 44, 121, 0.3);
+}
+
+.elevated-card-shadow {
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.08), 0 10px 15px -5px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(229, 231, 235, 0.8);
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 120" width="100%" height="100%">
+  <!-- Background Badge Container (Optional transparent) -->
+  <defs>
+    <linearGradient id="mp-blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#009EE3"/>
+      <stop offset="100%" stop-color="#0081C4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Mercado Pago Icon (Handshake / Blue Pill Shape) -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="100" height="100" rx="24" fill="url(#mp-blue-grad)"/>
+    <!-- Shaking Hands Stylized White Graphic -->
+    <path d="M 32 62 C 28 58, 25 50, 32 42 C 38 35, 45 35, 50 40 C 55 35, 62 35, 68 42 C 75 50, 72 58, 68 62 L 50 78 Z" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 38 48 C 42 52, 45 55, 50 52 C 55 55, 58 52, 62 48" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="50" cy="38" r="4" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Mercado Pago Brand Text -->
+  <text x="125" y="60" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="42" fill="#009EE3" letter-spacing="-1">
+    mercado
+  </text>
+  <text x="125" y="98" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="42" fill="#002B49" letter-spacing="-1">
+    pago
+  </text>
+</svg>
